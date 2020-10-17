@@ -44,7 +44,7 @@ Example:
 .
 ├── app.rb 	# Application server code
 ├── Gemfile 	# This file is for defining libraries and dependencies
-├── test.rb	# contains the single test case
+├── test.rb	# contains the single test case - sample provided
 ├── config.ru	# enables the server to start, file provided
 └── views	# contains the views presented to the user
     └── landing.html.erb
@@ -95,7 +95,8 @@ All provided material can be found within the `./material` folder relative to th
 
 ### Setting up the project
 
-For minitest / rack-testing, you need to wrap the sinatra-code in `app.rb` to a class as following
+For minitest / rack-testing, you need to wrap the sinatra-code in `app.rb` to a
+class as following
 
 ```
 class WebApp < Sinatra::Base
@@ -103,9 +104,14 @@ class WebApp < Sinatra::Base
 end
 ```
 
-and create a `config.ru` file to enable starting the server after this change. The file is attached to this assignment.
+and create a `config.ru` file to enable starting the server after this change.
+The file is attached to this assignment.
 
-If you decide to name the `app.rb` and `class WebApp` differently, you need to adjust the `config.ru` file to match.
+If you decide to name the `app.rb` and `class WebApp` differently, you need to
+adjust the `config.ru` file to match.
+
+After creating the `config.ru` file you can start the web server with a tool
+`rackup` by executing the command `rackup` or running `make server`.
 
 ### Deployment
 
