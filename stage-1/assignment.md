@@ -56,8 +56,8 @@ The project will be built with following tools and technologies.
 
 * ruby (we recommend 2.7 or the latest)
 * sinatra (the web server, a ruby gem)
-* minitest (ruby gem)
-* rack-test (ruby gem)
+* minitest (ruby gem, for testing)
+* rack-test (ruby gem, additional library for testing web applications)
 * erb templates (comes with sinatra)
 
 Ruby gems are open source libraries which are usually fetched from rubygems.org.
@@ -126,3 +126,4 @@ Any text editor or even an IDE is fine.
 * Quick ruby reference: https://learnxinyminutes.com/docs/ruby/
 * Ruby programming guide: https://poignant.guide/
 * Sinatra intro: http://sinatrarb.com/intro.html
+* Testing with minitest: https://launchschool.com/blog/assert-yourself-an-introduction-to-minitest
