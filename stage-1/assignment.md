@@ -47,7 +47,7 @@ Example:
 ├── test.rb	# contains the single test case - sample provided
 ├── config.ru	# enables the server to start, file provided
 └── views	# contains the views presented to the user
-    └── landing.html.erb
+    └── landing.erb
 ``` 
 
 The project will be built with following tools and technologies.
